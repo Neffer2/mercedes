@@ -1,0 +1,56 @@
+* {
+	color: white;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	background-color: black;
+	padding: 25px;
+}
+
+.pre-navbar {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	background-color: red;
+}
+
+.navbar{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: orange;
+}
+
+.navbar-brand {
+	width: 50%;
+	height: 80px;
+	background-color: blue;
+}
+
+.brand {
+	width: 100%;
+	height: auto;
+}
+
+.menu {
+	width: 50%;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: blue;
+}
+
+.menu-item {
+	flex-grow: 1;
+	/*padding: 5px;*/
+	margin: 5px;
+	background-color: red;
+	text-align: center;
+}
